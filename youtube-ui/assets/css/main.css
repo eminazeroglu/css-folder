@@ -1,0 +1,248 @@
+body {
+    background-color: var(--youtube-black-18);
+}
+
+.subscription {
+    padding-left: 20px;
+}
+
+.subscription .title {
+    color: var(--youtube-aa); 
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.subscription-content {
+    padding-top: 8px;
+}
+
+.subscription-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    position: relative;
+}
+
+.subscription-item figure {
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.subscription-item .text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 15px;
+}
+
+.subscription-item .dot {
+    width: 4px;
+    height: 4px;
+    display: inline-flex;
+    border-radius: 50%;
+    background-color: var(--youtube-blue);
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px 8px 0;
+    border-bottom: 1px solid var(--youtube-black-32);
+}
+
+.header .search-box {
+    width: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.header .search-box .search {
+    border: 1px solid var(--youtube-black-32);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+}
+.header .search-box .search input {
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    padding: 0 6px;
+    color: var(--youtube-aa);
+}
+
+.header .search-box .voice {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.header .search-box .search button {
+    width: 56px;
+    height: 36px;
+    background-color: var(--youtube-black-32);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .search-box .search input::placeholder {
+    color: var(--youtube-aa);
+}
+
+.header .button-item button figure {
+    width: 28px;
+    height: 28px;
+}
+
+.header .buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .button-item {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .profile {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.category {
+    padding: 0 12px;
+    border-bottom: 1px solid var(--youtube-black-32);
+    display: flex;
+    align-items: center;
+}
+
+.category .arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.category-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    overflow-x: auto;
+    width: calc(100% - 50px);
+}
+
+.category-item {
+    display: inline-flex;
+    padding: 8px 12px;
+    background-color: var(--youtube-black-38);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 25px;
+    white-space: nowrap
+}
+
+.category-item.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.video {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 12px;
+    gap: 14px;
+}
+
+.video-item {
+    position: relative;
+}
+
+.video-item .link {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+}
+
+.video-item .photo {
+    aspect-ratio: 3 / 2;
+    margin-bottom: 10px;
+}
+
+.video-item .inner {
+    display: flex;
+}
+
+.video-item .inner .logo {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.video-item .inner .info {
+    color: var(--youtube-aa);
+    font-size: 12px;
+}
+
+.video-item .inner .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 7px;
+    line-height: 17px;
+    letter-spacing: -.2px;
+}
+
+.video-item .inner .channel {
+    display: flex;
+    align-items: center;
+    line-height: 17px;
+}
+
+.video-item .inner .channel .icon {
+    margin-left: 4px;
+}
+
+.video-item .inner .view {
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.video-item .inner .view .dot {
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background-color: var(--youtube-aa);
+    border-radius: 50%;
+    margin: 0 5px;
+}

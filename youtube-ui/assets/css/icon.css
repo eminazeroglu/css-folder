@@ -1,0 +1,94 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    background-color: #fff;
+}
+
+.icon-sm {
+    width: 10px;
+    height: 10px;
+}
+
+.icon-bg-gray {
+    background-color: var(--youtube-aa);
+}
+
+.icon-home {
+    mask-image: url('../icons/home.svg');
+}
+
+.icon-arrow-down {
+    mask-image: url('../icons/arrow-down.svg');
+}
+
+.icon-bell {
+    mask-image: url('../icons/bell.svg');
+}
+
+.icon-create {
+    mask-image: url('../icons/create.svg');
+}
+
+.icon-explore {
+    mask-image: url('../icons/explore.svg');
+}
+
+.icon-history {
+    mask-image: url('../icons/history.svg');
+}
+
+.icon-library {
+    mask-image: url('../icons/library.svg');
+}
+
+.icon-like {
+    mask-image: url('../icons/like.svg');
+}
+
+.icon-menu {
+    mask-image: url('../icons/menu.svg');
+}
+
+.icon-more {
+    mask-image: url('../icons/more.svg');
+}
+
+.icon-playlist {
+    mask-image: url('../icons/playlist.svg');
+}
+
+.icon-search {
+    mask-image: url('../icons/search.svg');
+}
+
+.icon-shorts {
+    mask-image: url('../icons/shorts.svg');
+}
+
+.icon-subscription {
+    mask-image: url('../icons/subscription.svg');
+}
+
+.icon-verifide {
+    mask-image: url('../icons/verifide.svg');
+}
+
+.icon-voice {
+    mask-image: url('../icons/voice.svg');
+}
+
+.icon-watch {
+    mask-image: url('../icons/watch.svg');
+}
+
+.icon-your-video {
+    mask-image: url('../icons/your-video.svg');
+}
+
+.icon-arrow-right {
+    mask-image: url('../icons/arrow-right.svg');
+}

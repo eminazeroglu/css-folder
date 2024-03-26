@@ -1,0 +1,96 @@
+#menu {
+    display: none;
+}
+
+#menu:checked ~ .layout {
+    grid-template-columns: 60px 1fr;
+}
+
+#menu:checked ~ .layout .layout-left {
+    padding-right: 0;
+} 
+
+#menu:checked ~ .layout .layout-left .subscription {
+    display: none;
+}
+
+#menu:checked ~ .layout .video {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#menu:checked ~ .layout .navbar .navbar-link span {
+    position: absolute;
+    left: calc(100% + 3px);
+    background-color: var(--youtube-black-38);
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 30px;
+    z-index: 20;
+    display: none;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+#menu:checked ~ .layout .navbar .navbar-link:hover > span {
+    display: inline-flex;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    height: 100vh;
+}
+
+.layout-left {
+    background-color: var(--youtube-black-21);
+    padding-right: 20px;
+}
+.layout-left .menu {
+    width: 22px;
+    height: 22px;
+    margin-right: 18px;
+    display: inline-flex;
+    flex-shrink: 0;
+}
+
+.layout-left .top {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px 0px;
+}
+
+.layout-left .logo {
+    height: 20px;
+}
+
+.navbar {
+    padding-top: 30px;
+}
+
+
+.navbar .navbar-link {
+    display: flex;
+    padding: 8px 8px 8px 20px;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+}
+
+.navbar .navbar-link.active {
+    background-color: var(--youtube-black-38);
+    font-weight: 500;
+}
+
+.navbar .navbar-link .icon {
+    margin-right: 20px;
+    flex-shrink: 0;
+    white-space: nowrap
+}
+
+.layout-content {
+    padding-left: 10px;
+    overflow-x: hidden;
+}
