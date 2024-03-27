@@ -1,0 +1,22 @@
+body {
+    background-color: #F4F9F8;
+    color: var(--darkPrimary);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 260px 1fr 285px;
+    column-gap: 45px;
+}
+
+.page-left {
+    
+}
+
+.page-main {
+    
+}
+
+.page-right {
+    
+}

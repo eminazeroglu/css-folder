@@ -1,0 +1,153 @@
+/* 2X Laptop */
+@media screen and (max-width: 1536px) {
+}
+
+/* X Laptop */
+@media screen and (max-width: 1280px) {
+  .navbar-link .navbar-text {
+    display: none;
+  }
+
+  .navbar-link {
+    justify-content: center;
+  }
+
+  .navbar-link .navbar-icon {
+    margin-right: 0;
+  }
+
+  .page-left-buttons .btn .plus {
+    display: inline;
+  }
+
+  .page-left-buttons .btn .text {
+    display: none;
+  }
+
+  .page-left {
+    width: 80px;
+    text-align: center;
+  }
+
+  .page-left-buttons {
+    padding: 0 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-left-buttons .btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .profile {
+    justify-content: center;
+    padding-right: 0;
+  }
+  .profile .text,
+  .profile .more {
+    display: none;
+  }
+
+  .page-content {
+    margin-left: 80px;
+    max-width: 600px;
+  }
+
+  .container {
+    justify-content: flex-start;
+  }
+
+  .page-right {
+    width: 290px;
+  }
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+  .page-right {
+    display: none;
+  }
+
+  .page-left {
+    width: 110px;
+    text-align: center;
+  }
+
+  .page-content {
+    margin-left: 110px;
+    max-width: 600px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 52px;
+  }
+  .page-left {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .page-content {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .tweet-buttons .tweet-button:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .tweet-buttons {
+    justify-content: space-between;
+  }
+
+  .mobile-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 52px;
+    background-color: #000;
+    border-top: 1px solid var(--darkBorderColor);
+    justify-content: space-between;
+  }
+
+  .mobile-navbar .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .mobile-navbar .link .link-content {
+    position: relative;
+  }
+
+  .mobile-navbar .count {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    display: flex;
+    color: #fff;
+    border-radius: 999px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    position: absolute;
+    top: -4px;
+    right: -3px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+}

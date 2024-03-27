@@ -1,0 +1,111 @@
+.icon {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-lg {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-activity {
+    background-image: url('../icons/activity.svg');
+}
+
+.icon-arrow-left {
+    background-image: url('../icons/arrow-left.svg');
+}
+
+.icon-arrow-right {
+    background-image: url('../icons/arrow-right.svg');
+}
+
+.icon-award {
+    background-image: url('../icons/award.svg');
+}
+
+.icon-bell {
+    background-image: url('../icons/bell.svg');
+}
+
+.icon-briefcase {
+    background-image: url('../icons/briefcase.svg');
+}
+
+.icon-chevron-left {
+    background-image: url('../icons/chevron-left.svg');
+}
+
+.icon-chevron-right {
+    background-image: url('../icons/chevron-right.svg');
+}
+
+.icon-chevron-down {
+    background-image: url('../icons/chevron-down.svg');
+}
+
+.icon-crosshair {
+    background-image: url('../icons/crosshair.svg');
+}
+
+.icon-feather {
+    background-image: url('../icons/feather.svg');
+}
+
+.icon-file-text {
+    background-image: url('../icons/file-text.svg');
+}
+
+.icon-gift {
+    background-image: url('../icons/gift.svg');
+}
+
+.icon-globe {
+    background-image: url('../icons/globe.svg');
+}
+
+.icon-home {
+    background-image: url('../icons/home.svg');
+}
+
+.icon-message-circle {
+    background-image: url('../icons/message-circle.svg');
+}
+
+.icon-more-ellipse {
+    background-image: url('../icons/more-ellipse.svg');
+}
+
+.icon-play-circle {
+    background-image: url('../icons/play-circle.svg');
+}
+
+.icon-pocket {
+    background-image: url('../icons/pocket.svg');
+}
+
+.icon-search {
+    background-image: url('../icons/search.svg');
+}
+
+.icon-settings {
+    background-image: url('../icons/settings.svg');
+}
+
+.icon-share {
+    background-image: url('../icons/share.svg');
+}
+
+.icon-shield {
+    background-image: url('../icons/shield.svg');
+}
+
+.icon-user {
+    background-image: url('../icons/user.svg');
+}

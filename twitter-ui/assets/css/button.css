@@ -1,0 +1,42 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.btn-action {
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    justify-content: center;
+}
+
+.btn-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn-lg {
+    height: 52px;
+    padding: 0 22px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-light {
+    background-color: #EFF3F4;
+    color: #0F1419;
+}

@@ -1,0 +1,81 @@
+.logo a {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo a img {
+    width: 29px;
+    height: 35px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+.logo a span {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-link {
+    display: flex;
+    padding: 12px 33px;
+    align-items: center;
+    position: relative;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+.navbar-link::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: var(--sky);
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    border-radius: 6px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in 100ms;
+}
+
+.navbar-link .icon {
+    margin-right: 22px;
+}
+
+.navbar-link:hover {
+    background-color: var(--lightPrimary);
+    color: var(--sky);
+}
+
+.navbar-link:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-link.active {
+    background-color: var(--lightPrimary);
+    color: var(--sky);
+    font-weight: 700;
+}
+
+.navbar-link.active::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-link.hr {
+    border-top: 0.2px solid var(--borderColor);
+    border-bottom: 0.2px solid var(--borderColor);
+    border-radius: 0;
+}
+
+.navbar-link.hr:hover {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-color: transparent;
+}

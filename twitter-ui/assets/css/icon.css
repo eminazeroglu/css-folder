@@ -1,0 +1,103 @@
+.icon {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-sm {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-home {
+    background-image: url('../icons/home.svg');
+}
+
+.icon-bookmark {
+    background-image: url('../icons/bookmark.svg');
+}
+
+.icon-explore {
+    background-image: url('../icons/explore.svg');
+}
+
+.icon-list {
+    background-image: url('../icons/list.svg');
+}
+
+.icon-message {
+    background-image: url('../icons/message.svg');
+}
+
+.icon-more {
+    background-image: url('../icons/more.svg');
+}
+
+.icon-notification {
+    background-image: url('../icons/notification.svg');
+}
+
+.icon-user {
+    background-image: url('../icons/user.svg');
+}
+
+.icon-ellipse-v {
+    background-image: url('../icons/ellipse-v.svg');
+}
+
+.icon-timeline {
+    background-image: url('../icons/timeline.svg');
+}
+
+.icon-emoji {
+    background-image: url('../icons/emoji.svg');
+}
+
+.icon-gif {
+    background-image: url('../icons/gif.svg');
+}
+
+.icon-media {
+    background-image: url('../icons/media.svg');
+}
+
+.icon-poll {
+    background-image: url('../icons/poll.svg');
+}
+
+.icon-schedule {
+    background-image: url('../icons/schedule.svg');
+}
+
+.icon-verified {
+    background-image: url('../icons/verified.svg');
+}
+
+.icon-react {
+    background-image: url('../icons/react.svg');
+}
+
+.icon-reply {
+    background-image: url('../icons/reply.svg');
+}
+
+.icon-retweet {
+    background-image: url('../icons/retweet.svg');
+}
+
+.icon-share {
+    background-image: url('../icons/share.svg');
+}
+
+.icon-search {
+    background-image: url('../icons/search.svg');
+}
+
+.icon-settings {
+    background-image: url('../icons/settings.svg');
+}
